@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@900&family=Inter&family=Libre+Caslon+Text:wght@700&family=Open+Sans:wght@300&family=Oswald:wght@200;400&family=Raleway:wght@100&family=Roboto:wght@100&family=Source+Sans+Pro:wght@600&family=ZCOOL+QingKe+HuangYou&display=swap');
+.mapImg{
+    border-radius: 5px;
+    width: 296px;
+    height: 148px;
+}
+.row{
+    background-color: #171717 ;
+    border-radius: 10px;
+    padding: 22px 44px 28px 29px;
+    margin: 6px 43px 13px 43px;
+}
+.rideDetails{
+    font-family: 'Inter', sans-serif;
+    color: #CFCFCF;
+
+}
+.rideDetails p{
+    margin-bottom: 8px;
+}
