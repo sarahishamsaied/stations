@@ -10,12 +10,10 @@ import { RidesContextProvider } from './Context/Rides.Context';
 function App() {
   return <Fragment>
     <UserContextProvider>
-      <RidesContextProvider>
       <NavBar/>
     <Container>
     <RidesContainer/>
     </Container>
-      </RidesContextProvider>
     </UserContextProvider>
   </Fragment>
 }

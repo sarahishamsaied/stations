@@ -2,19 +2,37 @@
 .mapImg{
     border-radius: 5px;
     width: 296px;
-    height: 148px;
+    height: 170px;
 }
 .row{
     background-color: #171717 ;
     border-radius: 10px;
     padding: 22px 44px 28px 29px;
     margin: 6px 43px 13px 43px;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
 }
 .rideDetails{
     font-family: 'Inter', sans-serif;
     color: #CFCFCF;
-
+    margin-left: 44px;
 }
 .rideDetails p{
     margin-bottom: 8px;
+}
+.stateCity{
+    position: absolute;
+    right: 20px;
+}
+.stateCity span{
+    font-family: 'Inter', sans-serif;
+    color: white;
+    background-color: black;
+    padding: 4px 10px 4px 10px;
+    border-radius: 16px;
+    font-size: 12px;
+}
+.stateCity span:first-child{
+    margin-right: 24px;
 }

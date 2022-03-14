@@ -14,7 +14,7 @@ export default function NavBar() {
     </Nav>
     <Nav className="ml-auto">
     <Nav.Link href="#home" className='text-white'>
-        <h4>{user.name}</h4>
+        <h4 className='mt-3'>{user.name}</h4>
     </Nav.Link>
       <Nav.Link href="#home" className='text-white'>
           <img src={user.url} className = {style.userImg}alt="" />

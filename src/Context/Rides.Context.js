@@ -6,9 +6,13 @@ export function RidesContextProvider({children}) {
     const [rides,setRides] = useState([]);
     const {user} = useUser()
     const getAllRides = async()=>{
-        const {data} = await axios.get("https://assessment.api.vweb.app/rides");
-        console.log(data)
-        setRides(data);
+        await axios.get("https://assessment.api.vweb.app/rides").then((resp)=>{
+            console.log(resp)
+            setRides(resp.data);
+            sortRidesHandler()
+            console.log(rides)
+        });
+
     }
     const sortStations = (target,arr,val)=>{
         let min = 0;
@@ -55,16 +59,10 @@ export function RidesContextProvider({children}) {
         })
         setRides(rides)
         console.log(rides)
-        console.log("hi")
       }
     useEffect(()=>{
-        getAllRides().then(()=>{
-            sortRidesHandler()
-        })
+        getAllRides()
     },[])
-    useEffect(()=>{
-        sortRidesHandler();
-    },[rides])
   return <RidesContext.Provider value={{rides,getAllRides,sortStations,sortRidesHandler}}>
       {children}
   </RidesContext.Provider>

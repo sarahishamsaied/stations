@@ -14,7 +14,51 @@ html,body{
     padding-left: 43px;
     font-size: 18px;
 }
-.navigators>h3:hover{
+.tabs>p:hover{
     text-decoration-line:underline ;
     cursor: pointer;
+}
+.tabs{
+    display: flex;
+    justify-content: start;
+    font-size: 18px;
+}
+.tabs p{
+    margin-right: 44px;
+
+}
+.filter{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+.filters{
+position: absolute;
+width: 228px;
+height: 190px;
+right: 100px;
+z-index: 100;
+background: #131313;
+border-radius: 15px;
+display: flex;
+justify-content: center;
+align-items: flex-start;
+flex-direction: column;
+padding-left: 30px;
+top: 120px;
+right: 100px;
+}
+select{
+    background-color: #232323;
+    padding: 7px;
+    color: white;
+    border: 0;
+    border-radius: 4.68775px;
+    border-bottom: 1px solid white;
+    width: 70%;
+}
+option{
+    background-color: #232323;
+    color: white;
+
 }
