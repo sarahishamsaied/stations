@@ -1,9 +1,10 @@
 # Stations
 > A basic React app that sorts rides according to the minimum distance between the user's chosen station code and the stopping stations of every ride.
 
+# User's Data & Ride Data
+User's data and rides data are fetched from an external api. 
 # Nearest ride:
 A nearest ride is a ride that includes your station code or a number closest to your station code in the station_path array.
-
 
 For example, your station code is 82. 
 
