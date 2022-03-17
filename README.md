@@ -11,7 +11,7 @@ For example, your station code is 82.
 So any ride that has your station code as nearest number in station_path array.
 
 
-Hence that would be  id 538 the most nearest as it has your station code 82 in the station_path array (82 - 82 = 0). 
+Hence that would be  id 538 and 107 as they're the most nearest as your station code which is ***82*** in the station_path array (82 - 82 = 0). 
 
 
 ![Screenshot (181)](https://user-images.githubusercontent.com/71923204/158275265-3d151bec-e955-4b26-812a-83d5bb0ad8ae.png)
